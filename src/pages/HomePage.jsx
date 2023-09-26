@@ -2,7 +2,6 @@ import { Row, Col } from "react-bootstrap";
 import coding from "../assets/icons8-coding-64.png";
 
 function HomePage() {
-  // test
   return (
     <div className="p-5 banner">
       <Row>

@@ -10,7 +10,7 @@ function MyNavbar() {
         <Nav>
           <Nav.Link as={NavLink} to="/aboutme">About me</Nav.Link>
           <Nav.Link as={NavLink} to="/contact">Contact info</Nav.Link>
-          <Nav.Link as={NavLink} to="/resume">Resume</Nav.Link>
+          <Nav.Link href="https://docs.google.com/document/d/1SlHtwQDx-C7l3awPCsWEUYAP6JAb5kVy4dpsg2MVTi8/edit?usp=sharing">Resume</Nav.Link>
           <Nav.Link href="https://www.linkedin.com/in/matthew-hoepfl/">
             <i className="fab fa-linkedin"></i>
           </Nav.Link>
@@ -18,8 +18,8 @@ function MyNavbar() {
             <i className="fab fa-github"></i>
           </Nav.Link>
           <NavDropdown title="Applications" id="basic-nav-dropdown">
-            <NavDropdown.Item as={Nav.Link} href="/page1">
-              Restaurant
+            <NavDropdown.Item as={Nav.Link} href="https://ecommerce-vd25.onrender.com/">
+              Ecommerce App
             </NavDropdown.Item>
             <NavDropdown.Item as={Nav.Link} href="/page2">
               Weather Forecast
