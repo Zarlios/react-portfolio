@@ -21,16 +21,10 @@ function MyNavbar() {
             <NavDropdown.Item as={Nav.Link} href="https://ecommerce-vd25.onrender.com/">
               Ecommerce App
             </NavDropdown.Item>
-            <NavDropdown.Item as={Nav.Link} href="/page2">
-              Weather Forecast
+            <NavDropdown.Item as={Nav.Link} href="https://expense-frontend-85qh.onrender.com/">
+              Expense Tracker
             </NavDropdown.Item>
-            <NavDropdown.Item as={Nav.Link} href="/page3">
-              Nasa APOD
-            </NavDropdown.Item>
-            <NavDropdown.Item as={Nav.Link} href="/page4">
-              Todo-list
-            </NavDropdown.Item>
-            <NavDropdown.Item as={Nav.Link} href="/page5">
+            <NavDropdown.Item as={Nav.Link} href="https://tic-tac-toe-1zp3.onrender.com/">
               Tic-Tac-Toe
             </NavDropdown.Item>
           </NavDropdown>
